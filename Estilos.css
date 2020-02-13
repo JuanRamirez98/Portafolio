@@ -3,40 +3,153 @@ body {
   padding: 0;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 20px;
-  background:#2250a2;
+  background-image: url(Imagenes/img8.png);
 }
 .Prueba {
-  width: 1000px;
+  width: 700px;
+  height: 250px;
   display: flex;
-  background: lightskyblue;
+  background: white;
   padding: 20px;
   margin: 20px;
+  border-radius: 15px;
 }
+
 img {
   width: 400px;
 }
 .perfil {
+  height: 210px;
   width: 200px;
+  border-radius: 0px 0px 15px 15px;
 }
 .info {
-  margin: 40px;
+  margin: 20px;
+  justify-content: center;
 }
 .info h1 {
   font-size: 20px;
+  display: flex;
+  justify-self: flex-end;
+  font-family: Segoe UI;
+  color: #1762ff;
 }
 .info h3 {
   font-size: 20px;
 }
+.info h2 {
+  font-size: 15px;
+  color: grey;
+  font-family: Segoe UI;
+}
 .proyectos {
-  background-color: lightskyblue;
+  background-color: white;
   padding: 10px;
   margin: 10px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: flex-start;
 }
 .contenedor {
-  background-color: #96bdd4;
+  background-color: white;
   padding: 20px;
   margin: 20px;
+  border-radius: 15px;
 }
 .proyectos h1 {
-    text-align: center;
+  text-align: left;
 }
+.proyectos img {
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+}
+
+.saludo {
+  background-color: #1762ff;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.saludo h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-size: 15px;
+  border-top: 10px;
+  font-family: Segoe UI;
+}
+.cuadro-perfil {
+  display: flex;
+  align-self: flex-end;
+  justify-content: center;
+}
+.proyectos-h {
+  background-color: #1762ff;
+  border-radius: 15px 15px 0px 0px;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  width: 1600px;
+  height: 50px;
+  font-family: Segoe UI;
+  align-content: flex-start;
+}
+.proyectos p {
+  font-family: Segoe UI;
+}
+.proyectos-h2 {
+  
+  border-radius: 15px 15px 15px 15px;
+  color: #1762ff;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  width: 600px;
+  height: 50px;
+  font-family: Segoe UI;
+  align-content: flex-start;
+}
+.proyectos-h2 img{
+  width:20px;
+}
+
+.proyecto1{
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.proyecto1{
+  background-color: white;
+  padding: 50px;
+  margin: 50px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-start;
+  
+  
+}
+.proyecto1 h1{
+  font-size: 20px;
+}
+.progreso img{
+  width: 25%;
+  height: 25%;
+}
+.progreso2{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+ 
+  
+}
+
+
+
+
