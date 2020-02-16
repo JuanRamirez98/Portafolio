@@ -4,6 +4,7 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 20px;
   background-image: url(Imagenes/img8.png);
+  display: flex;
 }
 .Prueba {
   width: 700px;
@@ -19,13 +20,17 @@ img {
   width: 400px;
 }
 .perfil {
-  height: 210px;
-  width: 200px;
-  border-radius: 0px 0px 15px 15px;
+  width: auto;
+  height: 100%;
+  border-radius: 15px 15px 15px 15px;
 }
 .info {
-  margin: 20px;
+  margin-left: 4rem;
   justify-content: center;
+}
+.info img {
+  width: 10%;
+  height: 20%;
 }
 .info h1 {
   font-size: 20px;
@@ -49,6 +54,7 @@ img {
   border-radius: 15px;
   display: flex;
   justify-content: flex-start;
+  width: 600px;
 }
 .contenedor {
   background-color: white;
@@ -66,13 +72,15 @@ img {
 }
 
 .saludo {
-  background-color: #1762ff;
-  height: 200px;
-  width: 200px;
+ 
+  height: 250px;
+  width: 250px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   border-radius: 15px 15px 0px 0px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .saludo h1 {
@@ -96,7 +104,7 @@ img {
   display: flex;
   align-items: center;
   padding: 0;
-  width: 1600px;
+  width: 100%;
   height: 50px;
   font-family: Segoe UI;
   align-content: flex-start;
@@ -104,52 +112,127 @@ img {
 .proyectos p {
   font-family: Segoe UI;
 }
-.proyectos-h2 {
-  
-  border-radius: 15px 15px 15px 15px;
-  color: #1762ff;
+
+.proyecto1 {
   display: flex;
-  align-items: center;
-  padding: 0;
-  width: 600px;
-  height: 50px;
-  font-family: Segoe UI;
-  align-content: flex-start;
+  
 }
-.proyectos-h2 img{
-  width:20px;
+.proyecto1 {
+  background-color: white;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  font-family:Segoe UI;
+ 
 }
 
-.proyecto1{
+
+.primera-barra h1{
+  font-size: 13px;
+}
+
+.bar1{
+  background:#C2C2C2;
+  width: 300px;
+  height: 20px;
+  border-radius: 10px;
+}
+.bar2{
+  background:#1762ff;
+  width: 240px;
+  height: 20px;
+  border-radius: 10px;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+  color: white;
   
 }
-.proyecto1{
-  background-color: white;
-  padding: 50px;
-  margin: 50px;
-  border-radius: 20px;
+.segunda-barra h1{
+  font-size: 13px;
+}
+.bar3{
+  background:#C2C2C2;
+  width: 300px;
+  height: 20px;
+  border-radius: 10px;
+}
+.bar4{
+  background:#1762ff;
+  width: 270px;
+  height: 20px;
+  border-radius: 10px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  
+}
+.tercera-barra h1{
+  font-size: 13px;
+}
+.bar5{
+  background:#C2C2C2;
+  width: 300px;
+  height: 20px;
+  border-radius: 10px;
+}
+.bar6{
+  background:#1762ff;
+  width: 285px;
+  height: 20px;
+  border-radius: 10px;
+   display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
   
   
 }
-.proyecto1 h1{
-  font-size: 20px;
+.cuarta-barra h1{
+  font-size: 13px;
 }
-.progreso img{
-  width: 25%;
-  height: 25%;
+.bar7{
+  background:#C2C2C2;
+  width: 300px;
+  height: 20px;
+  border-radius: 10px;
 }
-.progreso2{
-  display: flex;
-  justify-content: center;
-  align-content: center;
- 
+.bar8{
+  background:#1762ff;
+  width: 270px;
+  height: 20px;
+  border-radius: 10px;
+   display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  
   
 }
-
+.titulo{
+  font-size: 18px;
+   color:#1762ff;
+}
+.porta{
+  background-color:white;
+}
+.titulo1{
+  font-size: 18px;
+  color: #1762ff;
+}
+.titulo2{
+  font-size:17px;
+  color: #1762ff;
+}
+.parrafo{
+  font-size: 13px;
+}
+.imagenes img{
+  width:260px;
+}
 
 
 
